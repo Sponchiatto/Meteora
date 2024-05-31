@@ -17,7 +17,7 @@ export const useCarrinhoContext = () => {
       return itemDoCarrinho;
     });
   }
-
+ 
   function adicionarProduto(novoProduto) {
     const temOProduto = carrinho.some(
       (itemDoCarrinho) => itemDoCarrinho.id === novoProduto.id
