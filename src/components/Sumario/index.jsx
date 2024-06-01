@@ -3,7 +3,7 @@ import Botao from "@/components/Botao";
 import ResumoCompra from "./ResumoCompra";
 import { useNavigate } from "react-router-dom";
 
-const Sumario = ({ valorTotalCarrinho, quantidadeProdutos }) => {
+const Sumario = () => {
   const navigate = useNavigate();
 
   return (
